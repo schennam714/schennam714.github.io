@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Hero from '../components/Hero'
-import About from '../components/About'
 import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Education from '../components/Education'
@@ -12,14 +11,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Your Name - Portfolio</title>
-        <meta name="description" content="Personal portfolio website" />
+        <title>Shreyas R. Chennamaraja - Portfolio</title>
+        <meta name="description" content="Software Engineer & Data Scientist" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="bg-white">
         <Hero />
-        <About />
         <Skills />
         <Experience />
         <Education />
