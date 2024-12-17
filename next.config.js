@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
-  basePath: '/schennam714.github.io',
+  basePath: '',
 };
 
 module.exports = nextConfig;
