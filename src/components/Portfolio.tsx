@@ -53,6 +53,17 @@ const Portfolio = () => {
       bgColor: "from-green-500 to-teal-500"
     },
     {
+      title: "Operating System",
+      link: "",
+      description: `A comprehensive enhancement of a toy operating system that demonstrates core OS concepts and implementations. 
+      The project focused on implementing essential operating system features including advanced priority-based process scheduling, 
+      sophisticated virtual memory management, and robust argument passing mechanisms. The system supports over 15 multithread system 
+      calls, enabling efficient concurrent operations. This project provided hands-on experience with fundamental OS concepts and system-level programming.`,
+      images: [],
+      tech: ["C", "Linux", "System Programming", "Concurrent Programming"],
+      bgColor: "from-purple-500 to-pink-500"
+    },
+    {
       title: "COVIDSeek",
       link: "https://github.com/schennam714/covidseek",
       videoDemo: "https://youtu.be/SZu8ZtmeFPg",
@@ -64,17 +75,6 @@ const Portfolio = () => {
       images: ["/images/covidseek1.png", "/images/covidseek2.png"],
       tech: ["HTML", "CSS", "Flask", "Python"],
       bgColor: "from-orange-300 to-pink-300"
-    },
-    {
-      title: "Operating System",
-      link: "",
-      description: `A comprehensive enhancement of a toy operating system that demonstrates core OS concepts and implementations. 
-      The project focused on implementing essential operating system features including advanced priority-based process scheduling, 
-      sophisticated virtual memory management, and robust argument passing mechanisms. The system supports over 15 multithread system 
-      calls, enabling efficient concurrent operations. This project provided hands-on experience with fundamental OS concepts and system-level programming.`,
-      images: [],
-      tech: ["C", "Linux", "System Programming", "Concurrent Programming"],
-      bgColor: "from-purple-500 to-pink-500"
     }
   ]
 
