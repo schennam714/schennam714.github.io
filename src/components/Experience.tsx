@@ -9,7 +9,10 @@ const Experience = () => {
       location: "Remote",
       period: "Dec 2024 - Present",
       logo: "/images/palantir.jpeg",
-      points: ["Building..."]
+      points: [
+        "Architected and implemented an automated military briefing system leveraging Retrieval-Augmented Generation, reducing cultural intelligence preparation time by 70% while maintaining contextual accuracy through optimized text chunking and vector embeddings",
+        "Led end-to-end development of a proof-of-concept intelligence tool for defense briefings, enabling instant retrieval of travel logistics"
+      ]
     },
     {
       company: "S&P Global",
