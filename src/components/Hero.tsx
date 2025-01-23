@@ -28,12 +28,12 @@ const Hero = () => {
               Shreyas R. Chennamaraja
             </h1>
             <p className="text-xl text-gray-600 mb-6">
-              Student | Software Engineer | Entrepreneur
+              Student | Software Engineer 
             </p>
             
             <div className="prose prose-lg text-gray-600 mb-8 max-w-none">
-              <p>Hi, I'm Shreyas! I'm passionate about building innovative solutions at the intersection of software engineering and data science.</p>
-              <p>Currently pursuing a dual degree at UT Austin, I combine technical expertise with business acumen to create impactful applications.</p>
+              <p>Hi, I'm Shreyas! I'm passionate about building innovative solutions at the intersection of software engineering, data science, and product management.</p>
+              <p>Currently pursuing a dual degree at UT Austin, I am also heavily interested in venture capital and the startup ecosystem as an active associate of Texas Venture Group.</p>
             </div>
 
             <div className="flex flex-wrap gap-4">
