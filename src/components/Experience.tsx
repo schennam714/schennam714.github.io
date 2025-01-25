@@ -11,7 +11,8 @@ const Experience = () => {
       logo: "/images/palantir.jpeg",
       points: [
         "Architected and implemented an automated military briefing system leveraging Retrieval-Augmented Generation, reducing cultural intelligence preparation time by 70% while maintaining contextual accuracy through optimized text chunking and vector embeddings",
-        "Led end-to-end development of a proof-of-concept intelligence tool for defense briefings, enabling instant retrieval of travel logistics"
+        "Led end-to-end development of a proof-of-concept intelligence tool for defense briefings, enabling instant retrieval of travel logistics",
+        "Selected as a finalist from ~100 fellows to present demo next month onsite"
       ]
     },
     {
@@ -75,20 +76,7 @@ const Experience = () => {
           "Analyzed 1,000+ MariaDB records using Sickit-Learn for feature selection, identifying 8 benign features driving function latency",
           "Achieved 94.75% prediction accuracy for cloud resource allocation, optimizing costs 0.25 standard deviations below former average"
         ]
-      },
-    {
-      company: "Texas Convergent Forge Startups",
-      role: "Software Consultant",
-      location: "Austin, TX",
-      period: "Feb 2023 – May 2023",
-      logo: "/images/convergent.png",
-      points: [
-        "Collaborated with 5-person Agile team delivering food-tech startup MVP 2 weeks ahead of schedule, growing MAU from 50 to 200",
-        "Implemented interactive onboarding quiz with Next.js, increasing completion rate from 40% to 70% and reducing bounce rate to 20%",
-        "Engineered Flask recipe customization engine to handle 100 concurrent users with 180ms average response time",
-        "Designed scalable database architecture for personalized health supporting 200+ recipes with 50+ customization options per recipe"
-      ]
-    }
+      }
   ]
 
   return (
